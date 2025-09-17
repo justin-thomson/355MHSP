@@ -1,8 +1,9 @@
 My groupmembers are:
-- XXXX
-- XXXX
-- XXXX
-- XXXX
+- Cedric
+- Justin Thomson
+- Otmane
+- Romadan
+- Rayan
 
 
 ------------------ Fill in some information about your project under this ------------------
