@@ -4,7 +4,7 @@ My groupmembers are:
 - Otmane Miftah
 - Ramadan Ramadan
 - Rayan Alam
-
+- Lincoln Niang
 
 ------------------ Fill in some information about your project under this ------------------
 
