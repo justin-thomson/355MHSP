@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Stress Check-In</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Daily Stress Check-In</h1>
+    <p class="sub">Record your stress level from <strong>0</strong> (no stress) to <strong>10</strong> (max).</p>
+
+    <div class="status">
+      <div>Network: <span id="netPill" class="pill">Detecting…</span></div>
+      <div class="row">
+        <label for="simulate">Simulate Offline</label>
+        <input id="simulate" type="checkbox" />
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom:10px">
+      <label for="slider">Stress level</label>
+      <input id="slider" type="range" min="0" max="10" step="1" />
+      <span id="val" class="value">—</span>
+    </div>
+
+    <button id="submitBtn">Submit</button>
+    <div id="msg"></div>
+
+    <hr />
+
+    <div class="next" id="nextSection">
+      <strong>Next section:</strong> Thanks! This placeholder represents continuing the flow after a successful check-in.
+    </div>
+
+    <h3 style="margin-top:18px">Check-in Log</h3>
+    <small class="sub">Pending entries will sync automatically when you go online.</small>
+    <table id="logTable" aria-label="Check-in log">
+      <thead><tr><th>Time</th><th>Value</th><th>Status</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

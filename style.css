@@ -1,0 +1,29 @@
+:root { font-family: system-ui, Arial, sans-serif; }
+body { background:#0f1115; color:#e8e8ea; margin:0; padding:24px; }
+.card { max-width:720px; margin:auto; background:#151822; border:1px solid #232736; border-radius:14px; padding:20px; box-shadow:0 10px 24px rgb(0 0 0 / 25%); }
+h1 { margin:0 0 8px; font-size:1.4rem; }
+.sub { color:#a9afbf; margin:0 0 18px; }
+
+.row { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+.status { display:flex; justify-content:space-between; align-items:center; background:#0c0f16; border:1px solid #1b2030; padding:10px 12px; border-radius:10px; margin-bottom:16px; }
+
+.pill { padding:4px 10px; border-radius:999px; border:1px solid #2a3247; background:#111522; font-size:.85rem; }
+.pill.online { color:#8cf5a7; border-color:#2c5034; background:#102016; }
+.pill.offline { color:#f6c28b; border-color:#5b3a18; background:#20160f; }
+
+label { font-weight:600; }
+input[type="range"] { width:320px; }
+.value { font-weight:700; min-width:2ch; text-align:center; padding:4px 10px; border-radius:8px; border:1px solid #2a3247; background:#0e1220; }
+
+.msg { margin-top:12px; padding:10px 12px; border-radius:10px; border:1px solid transparent; }
+.msg.ok { color:#9df3b6; border-color:#264a33; background:#0f1a14; }
+.msg.err { color:#ffb3b3; border-color:#53333a; background:#1a0f12; }
+
+button { cursor:pointer; padding:10px 14px; border-radius:10px; border:1px solid #2a3247; background:#1b2235; color:#e8e8ea; font-weight:600; }
+button:disabled { opacity:.6; cursor:not-allowed; }
+
+hr { border:none; border-top:1px solid #232736; margin:18px 0; }
+.next { display:none; padding:12px; border:1px dashed #2a3247; border-radius:12px; color:#a9afbf; }
+
+table { width:100%; border-collapse:collapse; margin-top:10px; }
+th, td { border-bottom:1px solid #232736; padding:8px; font-size:.95rem; }
